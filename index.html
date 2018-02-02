@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>主页-GloriousPast's space</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <style type="text/css">
 body {
 	background-image: url();
@@ -33,6 +34,10 @@ function MM_goToURL() { //v3.0
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
@@ -47,10 +52,7 @@ function MM_findObj(n, d) { //v4.01
   if(!x && d.getElementById) x=d.getElementById(n); return x;
 }
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
+
 </script>
 <script src="http://use.edgefonts.net/bonbon:n4:default;alex-brush:n4:default;black-ops-one:n4:default.js" type="text/javascript"></script>
 
@@ -92,10 +94,10 @@ function MM_swapImage() { //v3.0
 <p><a href="Javascript:window.external.addFavorite('https://gloriouspast.github.io/','GloriousPast的空间')">加入收藏</a></p>
 <p>&nbsp;</p>
 
-<div class="fab"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('venter','','images/venter_press.png',1)"><img src="images/venter_normal.png" alt="" width="156" height="155" id="venter"></a></div>
+<div class="fab"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('venter','','images/venter_press.png',1)"><img src="images/venter_normal.png" alt="GloriousPast's space" width="156" height="155" id="venter"></a></div>
 <style>
 		.fab{display: block;position: fixed;bottom:120px;right: 20px;height: 60px;width: 180px}
 	</style>
-</a></p>
+
 </body>
 </html>
