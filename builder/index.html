@@ -1,20 +1,27 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Minecraft Builder</title>
-<script type="text/javascript">
-function MM_goToURL() { //v3.0
-  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
-  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
-}
-</script>
 <style type="text/css">
+@import url("../webfonts/DENG/stylesheet.css");
+body,td,th {
+	font-family: DENG;
+	font-size: medium;
+}
 a:link {
-	color: #4B76FF;
+	color: #196DDF;
+	text-decoration: none;
 }
 a:visited {
-	color: #A1A1A1;
+	text-decoration: none;
+	color: #196DDF;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
 }
 </style>
 </head>
@@ -23,70 +30,16 @@ a:visited {
 <table width="100%" border="0">
   <tbody>
     <tr>
-      <th width="6%" rowspan="2" align="center" valign="middle" bgcolor="#000000" scope="col"><img src="../images/MC_builder_w.png" width="60" height="60" alt=""/></th>
-      <th height="31" colspan="3" align="center" valign="middle" bgcolor="#000000" scope="col"><span style="font-family: '微软雅黑'; font-style: normal; font-weight: 900; color: #FFFFFF;"></span><span style="color: #FFFFFF; font-family: '微软雅黑'; font-style: normal; font-weight: 900;">Minecraft Builder</span></th>
+      <th height="40" align="center" valign="middle" bgcolor="#000000" scope="col"><p><span style="color: #FFFFFF; font-size: large;">Minecraft Builder</span></p></th>
     </tr>
     <tr>
-      <th width="33%" height="21" align="center" valign="middle" bgcolor="#000000" style="color: #FFFFFF;" scope="col">概述</th>
-<th width="33%" height="21" align="center" valign="middle" bgcolor="#000000" style="color: #FFFFFF;cursor: pointer" scope="col" onClick="MM_goToURL('parent','download.html');return document.MM_returnValue" >下载</th>
-      <th width="33%"  height="21" align="center" valign="middle" bgcolor="#000000" style="color: #FFFFFF" scope="col">帮助&amp;维护（暂未开放）</th>
+      <td align="center" valign="middle"><iframe name="html_iframe" id="html_iframe" src="home.html" frameborder="0" align="middle" width="100%" height="600" scrolling="auto"></iframe></td>
     </tr>
     <tr>
-      <td height="50" colspan="4" align="center" valign="middle"><table width="100%" border="0">
-        <tbody>
-          <tr>
-            <td width="4%" height="122"><img src="../images/builder_bdark.png" width="120" height="120" alt=""/></td>
-            <td width="96%" align="center" valign="middle" style="font-family: '黑体'; font-weight: normal; font-size: 300%;">欢迎下载！</td>
-          </tr>
-          <tr>
-            <td height="97" colspan="2"><table width="100%" border="0">
-              <tbody>
-                <tr>
-                  <td width="33%" height="21" align="center" valign="middle" bgcolor="#9F9F9F" style="font-family: '微软雅黑'; color: #FFFFFF; font-weight: bold; font-size: large;">条理性</td>
-                  <td width="33%" height="21" align="center" valign="middle" bgcolor="#9F9F9F" style="font-family: '微软雅黑'; color: #FFFFFF; font-weight: bold; font-size: large;">通俗性</td>
-                  <td width="33%" height="21" align="center" valign="middle" bgcolor="#9F9F9F" style="font-family: '微软雅黑'; color: #FFFFFF; font-weight: bold; font-size: large;">简便性</td>
-                </tr>
-                <tr>
-                  <td height="53" align="center" valign="middle" bgcolor="#9F9F9F"> <div style="color: #FFFFFF; font-size: large; font-weight: bold;">
-                    <p style="font-family: '微软雅黑'; font-size: medium;">所有的块使用列表展示，模型盖造尽收眼底。</p>
-                  </div></td>
-                  <td width="33%" align="center" valign="middle" bgcolor="#9F9F9F"><div style="color: #FFFFFF; font-size: large; font-weight: bold;">
-                    <p style="font-family: '微软雅黑'; font-size: medium;">对生物编辑简化，脱离的迷茫的JSON格式。</p>
-                  </div>
-</td>
-                  <td width="33%" align="center" valign="middle" bgcolor="#9F9F9F"><div style="color: #FFFFFF; font-size: large; font-weight: bold;">
-                    <p style="font-family: '微软雅黑'; font-size: medium;">只需轻松操作，即可将生物修改为独特的形状，应用内的3D预览可以在不打开Minecraft的情况下预览模型。</p>
-                  </div></td>
-                </tr>
-              </tbody>
-            </table></td>
-          </tr>
-        </tbody>
-      </table></td>
+      <td align="center" valign="middle"><a href="home.html" target="html_iframe">主页</a> | 下载 | 帮助</td>
     </tr>
     <tr>
-      <td height="65" colspan="4" align="center" valign="middle"><div>
-        <p style="font-family: '微软雅黑'; font-size: x-large;">简介</p>
-        <p>Builder是一个为Minecraft PE和Minecraft for Windows 10定制材质模型的应用。<br>
-          -实用的文件管理器，支持对文件或文件夹的复制、移动、重命名、删除以及获取文件路径的功能，为项目制作带来便利。<br>
-          -将JSON模型代码转换为可视化的列表，适应初学者学习及编辑大项目。<br>
-          -简洁的界面。此应用使用了黑色作为主题色，且界面布局整齐。<br>
-          -快速3D预览。此应用内置了LibGDX引擎，可快速预览你的模型。<br>
-          <br>
-          目前，此应用还在测试，若在使用中遇到异常或漏洞，欢迎即使通过应用右上角的反馈按钮告诉我，我会在第一时间带来解决方案及修复这个漏洞，欢迎反馈。</p>
-        <div><img src="1.png" width="257" height="412" alt=""/><img src="2.png" width="257" height="412" alt=""/><img src="3.png" width="257" height="412" alt=""/><img src="4.png" width="257" height="412" alt=""/></div>
-        <p>&nbsp;</p>
-      </div></td>
-    </tr>
-    <tr>
-      <td height="95" colspan="4" bgcolor="#318FFF" onClick="MM_goToURL('parent','../index.html');return document.MM_returnValue" style="cursor: pointer"><table width="100%" border="0">
-        <tbody>
-          <tr>
-            <td width="9%" align="center" valign="middle"  bgcolor="#318FFF"><img src="../images/venter_press.png" width="97" height="97" alt=""/></td>
-           <td height="29" align="center" valign="middle" bgcolor="#318FFF" style="color: #FFFFFF; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif; font-weight: 400; text-align: center; font-size: 36px; font-style: normal;" >GloriousPast's space</td>
-            </tr>
-        </tbody>
-      </table></td>
+      <td align="center" valign="middle">&copy; GloriousPast 2018|<a href="../index.html">GloriousPast's space</a></td>
     </tr>
   </tbody>
 </table>
