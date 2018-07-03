@@ -55,22 +55,22 @@ a:active {
 	font-size: large;
 }
 #a_top {
-	background-color: #494949;
+	width: 400px;
+	position: relative;
+	margin: auto;
 	font-family: "等线";
-	color: #FFFFFF;
-	font-weight: bold;
-	padding-bottom: 400px;
-
-5}
+	background-image: none;
+	background-repeat: repeat-x;
+}
 #a_top_left {
-	margin-left: 300px;
+
 	margin-top: 70px;
-	float: left;
+	 position:absolute;
 }
 #a_top_right{
-	margin-right: 300px;
+
 	margin-top: 20px;
-	float: right;
+	 position:absolute;
 }
 #a_top_2 {
 	background-color: #E4E4E4;
@@ -92,6 +92,17 @@ a:active {
 	font-weight: bold;
 	font-family: "等线";
 }
+#a_top_parent {
+	background-color: #494949;
+	font-family: "等线";
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-bottom: 400px;
+	text-align: center;
+	background-image: url(../images/builder_band.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
 </style>
 </head>
 
@@ -105,8 +116,10 @@ a:active {
   </div> 
 </div>
 <div id="article">
-  <div id="a_top">
-    <div id="a_top_left">
+  <div id="a_top_parent">
+	<div id="a_top">
+	
+<div id="a_top_left">
       <div style="font-family: '等线'; font-size: xx-large;">
         <p>欢迎下载Minecraft Builder!</p>
         <p style="font-size: large">下载安装包，马上使用！</p>
@@ -114,11 +127,10 @@ a:active {
         <p style="font-size: small">Ver:1.2.0</p>
       </div>
     </div>
-	
-	<div id="a_top_right">
-		<img src="../images/builder_band.png" width="311" height="378" alt=""/></div>
-
   </div>
+	</div>
+	
+  
   <div id="a_top_2"><table width="100%" border="0">
   <tbody>
     <tr>
